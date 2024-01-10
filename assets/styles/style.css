@@ -1,0 +1,412 @@
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+}
+
+/* Banner css */
+.banner {
+    text-align: center;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+    background-size: cover;
+    margin: 50px 240px 120px 240px;
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+
+}
+
+.banner h5 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* hollyday deal css */
+.holyday_deals {
+    text-align: center;
+}
+
+.holyday_deals h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.holyday_deals h6 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.holyday_deals h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* welcome_party css */
+.welcome_party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-size: cover;
+    margin: 120px 240px 120px 240px;
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+}
+
+.wp_container {
+    margin-left: 125px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.wp_text {
+    max-width: 690px;
+
+}
+
+.wp_text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0px;
+    margin-top: 50px;
+}
+
+.wp_text button:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wp_text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.wp_text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.wp_img {
+    margin-left: 40px;
+}
+
+/* event css */
+.event {
+    margin-top: 220px;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.event button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/* comming_soon css */
+.comming_soon {
+    margin: 230px 140px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.comming_soon h2 {
+    margin-top: 100px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.comming_soon h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.comming_soon p {
+    max-width: 390px;
+
+}
+
+.cs_img {
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.right_div h1 {
+    margin-top: 100px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.right_div p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 270px;
+}
+
+/* holiday sale css */
+.holiday_sales {
+    margin: 120px 140px 120px;
+    text-align: center;
+}
+
+.holiday_sales h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday_sales h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday_sales p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday_sales_image {
+    margin: 65px;
+    background-image: url(../images/Rectangle\ 2.png), url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+    background-position: bottom, top right;
+}
+
+/* portfolio_section css */
+.portfolio_section {
+    margin: 120px 210px;
+}
+
+.portfolio_section h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.portfolio_section h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.portfolio_section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio_image {
+    min-width: 100%;
+    justify-content: space-around;
+
+}
+
+.portfolio_image img {
+    margin: 25px 25px 25px 0px;
+    width: 460px;
+}
+
+/* subscribe_section css */
+.subscribe_section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.subscribe_section h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 40px 0px 20px;
+    margin-top: 50px;
+
+}
+
+.subscribe_section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe_text_field {
+    width: 650px;
+    height: 70px;
+    border: 1px solid #f00;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subscribe_button {
+    background-color: #f00;
+    float: right;
+    height: 100%;
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.subscribe_button button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.inputmail {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    height: 30px;
+    width: 130%;
+    outline: none;
+    color: rgb(65, 65, 65);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inputmail ::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer section css */
+footer {
+    /* width: 100%; */
+    height: 600px;
+    background-color: #070211;
+    padding: 120px 140px;
+}
+
+.footertxt {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    align-content: center;
+}
+
+.footertxt p img {
+    margin-right: 15px;
+}
+
+.footertxt p button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    background-color: transparent;
+    border: 0px;
+}
+.footertxt p button:hover{
+    background-color: #F00;
+    border-radius: 5px;
+}
+
+.footerlinks {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.footerlinks img {
+    margin-right: 25px;
+}
