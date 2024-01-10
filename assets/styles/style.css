@@ -318,7 +318,7 @@
     height: 70px;
     border: 1px solid #f00;
     border-radius: 50px;
-    margin: auto;
+    margin: 50px auto ;
     display: flex;
     justify-content: space-between;
 
